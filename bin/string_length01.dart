@@ -6,6 +6,11 @@
     Returns:
         length of string */
 
+int func(text){
+    int x = text.length;
+    return x;
+}
 void main() {
+  print(func("google"));
   // write your code here
 }
