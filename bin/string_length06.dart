@@ -8,14 +8,14 @@
         shortest string
 */
 void main() {
-  print(func("google","yandeks"));
+  print(func("code","yandex"));
   // write your code here
 }
 String func(s1,s2){
   int x = s1.length;
   int y = s2.length;
-  if (x>y){
-    return s2;
+  if (x<y){
+    return s1;
   }
-  return s1;
+  return s2;
 }
