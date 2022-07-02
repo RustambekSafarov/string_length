@@ -12,6 +12,7 @@ void main() {
   // write your code here
 }
 String func(s){
-  print(s.toUpperCase());
+  String x = s.toUpperCase();
+  return x;
 
 }
