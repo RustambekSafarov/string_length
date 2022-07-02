@@ -7,5 +7,11 @@
         string
 */
 void main() {
+  print(func("Google"));
   // write your code here
+}
+String func(s){
+  int d = s.length;
+  String f = '*'*d;
+  return f;
 }
