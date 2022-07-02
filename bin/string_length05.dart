@@ -8,5 +8,12 @@
         total length of strings
 */
 void main() {
+    print(func("google","yandex"));
   // write your code here
+}
+int func(s1,s2){
+    int x = s1.length;
+    int y = s2.length;
+    int z = x+y;
+    return z;
 }
