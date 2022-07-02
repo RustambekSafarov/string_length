@@ -8,5 +8,14 @@
         str: answer
      */
 void main() {
+  print(func("code","gifts"));
   // write your code here
+}
+String func(s1,s2){
+    int x = s1.length;
+    int y = s2.length;
+    if (x>y){
+      return s1+s2;
+    }
+    return s1;
 }
