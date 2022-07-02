@@ -4,9 +4,14 @@
     Args:
         s: str
     Returns:
-        bool: answer
+        string: answer
 */
 
 void main() {
+  print(func("codeschool"));
   // write your code here
+}
+String func(s){
+  print(s.toUpperCase());
+
 }
