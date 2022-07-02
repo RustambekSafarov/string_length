@@ -8,7 +8,7 @@
         shortest string
 */
 void main() {
-  print(func("code","yandex"));
+  print(func("code","yand"));
   // write your code here
 }
 String func(s1,s2){
