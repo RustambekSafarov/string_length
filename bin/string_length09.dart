@@ -8,14 +8,15 @@
         str: answer
      */
 void main() {
-  print(func("code","gifts"));
+  print(func("codeschool","dart"));
   // write your code here
 }
 String func(s1,s2){
     int x = s1.length;
     int y = s2.length;
     if (x>y){
-      return s1+s2;
+      String z = s1+s2;
+      return z;
     }
     return s1;
 }
