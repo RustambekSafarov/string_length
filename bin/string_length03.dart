@@ -8,5 +8,14 @@
         True or False
 */
 void main() {
+  print(func("google","Yandex"));
   // write your code here
+}
+bool func(a,b){
+  int x = a.length;
+  int y = b.length;
+  if (x==y){
+    return true;
+  }
+  return false;
 }
