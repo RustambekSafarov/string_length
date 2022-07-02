@@ -8,5 +8,14 @@
         string
 */
 void main() {
+    print(func("code","gifts"));
   // write your code here
+}
+String func(s1,s2){
+    int x = s1.length;
+    int y = s2.length;
+    if (x%2==0){
+        return s1;
+    }
+    return s2;
 }
