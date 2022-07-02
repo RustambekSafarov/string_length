@@ -7,5 +7,13 @@
         True or False
      */
 void main() {
+  print(func("codes"));
   // write your code here
+}
+bool func(text){
+  int x = text.length;
+  if (x%2==0){
+    return true;
+  }
+  return false;
 }
